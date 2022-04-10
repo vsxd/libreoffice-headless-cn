@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM --platform=amd64 ubuntu:20.04
 
 LABEL maintainer="vsxd <sun.xd@hotmail.com>" \
 	  version.ubuntu="20.04"
